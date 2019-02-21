@@ -1,3 +1,26 @@
+Clustering and PCA on Wholesale Customers Data
+==================
+
+This project analyses the Dataset provided at [this link](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers) that refers to customers of a wholelase distributor in Portugal. 
+
+In this report, we explore different clustering methods, optimize their parameters looking for the best possible performance and finally come up with insights of how the customers may be grouped according to their consumption behavior. 
+
+Principal Component Analysis is also applied to the data and the first two principal components are visualized and inspected on how they correlate to the dataset features and obtained clusters.
+
+Features Description
+====================
+
+**FRESH:** annual spending (m.u.) on fresh products;  
+**MILK:** annual spending (m.u.) on milk products;  
+**GROCERY:** annual spending (m.u.) on grocery products;  
+**FROZEN:** annual spending (m.u.) on frozen products;  
+**DETERGENTS_PAPER:** annual spending (m.u.) on detergents and paper products;  
+**DELICATESSEN:** annual spending (m.u.) on delicatessen products;  
+**CHANNEL:** customers channel - Horeca (Hotel/Restaurant/Café) or Retail channel;  
+**REGION:** customers Region - Lisbon, Porto or Other.
+
+m.u. refers to the spending in monetary units.
+
 Libraries
 =========
 
